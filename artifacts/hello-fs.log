@@ -1,0 +1,331 @@
+Mounting writable MemFs at /tmp/os-task1-hello.0WzBP5
+Use another Ubuntu terminal to read hello.txt and run fusermount3 -u <mountpoint>.
+getattr: inode=1
+getattr: inode=1
+getattr: inode=1
+getattr: inode=1
+readdir: inode=1 offset=0
+readdir: inode=1 offset=4
+getattr: inode=1
+lookup: parent=1 name="hello.txt"
+getattr: inode=2
+getattr: inode=1
+lookup: parent=1 name="notes.txt"
+getattr: inode=3
+getattr: inode=1
+lookup: parent=1 name="hello.txt"
+getattr: inode=2
+getattr: inode=1
+lookup: parent=1 name="hello.txt"
+getattr: inode=2
+open: inode=2 fh=1
+getattr: inode=2
+getattr: inode=2
+read: inode=2 offset=0 size=23
+read: inode=2 offset=22 size=1
+release: inode=2 fh=1
+getattr: inode=1
+lookup: parent=1 name="hello.txt"
+getattr: inode=2
+open: inode=2 fh=2
+getattr: inode=2
+read: inode=2 offset=6 size=4
+read: inode=2 offset=22 size=20
+read: inode=2 offset=1000 size=20
+release: inode=2 fh=2
+getattr: inode=1
+lookup: parent=1 name="notes.txt"
+getattr: inode=3
+getattr: inode=1
+lookup: parent=1 name="notes.txt"
+getattr: inode=3
+open: inode=3 fh=3
+getattr: inode=3
+getattr: inode=3
+read: inode=3 offset=0 size=29
+read: inode=3 offset=28 size=1
+release: inode=3 fh=3
+getattr: inode=1
+lookup: parent=1 name="notes.txt"
+getattr: inode=3
+open: inode=3 fh=4
+getattr: inode=3
+read: inode=3 offset=6 size=4
+read: inode=3 offset=28 size=20
+read: inode=3 offset=1000 size=20
+release: inode=3 fh=4
+getattr: inode=1
+lookup: parent=1 name="missing.txt"
+getattr: inode=1
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+create: parent=1 name="test.txt"
+open: inode=4 fh=5
+getattr: inode=4
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+write: inode=4 offset=0 size=5
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+open: inode=4 fh=6
+getattr: inode=4
+getattr: inode=4
+read: inode=4 offset=0 size=6
+read: inode=4 offset=5 size=1
+release: inode=4 fh=6
+write: inode=4 offset=1 size=2
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+open: inode=4 fh=7
+getattr: inode=4
+getattr: inode=4
+read: inode=4 offset=0 size=6
+read: inode=4 offset=5 size=1
+release: inode=4 fh=7
+write: inode=4 offset=8 size=1
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+open: inode=4 fh=8
+getattr: inode=4
+getattr: inode=4
+read: inode=4 offset=0 size=10
+read: inode=4 offset=9 size=1
+release: inode=4 fh=8
+release: inode=4 fh=5
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+open: inode=4 fh=9
+getattr: inode=4
+getattr: inode=4
+write: inode=4 offset=9 size=6
+release: inode=4 fh=9
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+open: inode=4 fh=10
+getattr: inode=4
+getattr: inode=4
+read: inode=4 offset=0 size=16
+read: inode=4 offset=15 size=1
+release: inode=4 fh=10
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+open: inode=4 fh=11
+setattr: inode=4 size=Some(0)
+getattr: inode=4
+write: inode=4 offset=0 size=2
+release: inode=4 fh=11
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+open: inode=4 fh=12
+getattr: inode=4
+getattr: inode=4
+read: inode=4 offset=0 size=3
+read: inode=4 offset=2 size=1
+release: inode=4 fh=12
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+setattr: inode=4 size=Some(1)
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+open: inode=4 fh=13
+getattr: inode=4
+getattr: inode=4
+read: inode=4 offset=0 size=2
+read: inode=4 offset=1 size=1
+release: inode=4 fh=13
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+setattr: inode=4 size=Some(5)
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+open: inode=4 fh=14
+getattr: inode=4
+getattr: inode=4
+read: inode=4 offset=0 size=6
+read: inode=4 offset=5 size=1
+release: inode=4 fh=14
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+setattr: inode=4 size=None
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+setattr: inode=4 size=Some(16777217)
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+open: inode=4 fh=15
+getattr: inode=4
+write: inode=4 offset=16777216 size=1
+release: inode=4 fh=15
+getattr: inode=1
+lookup: parent=1 name="test.txt"
+getattr: inode=4
+open: inode=4 fh=16
+getattr: inode=4
+getattr: inode=4
+read: inode=4 offset=0 size=6
+read: inode=4 offset=5 size=1
+release: inode=4 fh=16
+getattr: inode=1
+lookup: parent=1 name="hello.txt"
+getattr: inode=2
+open: inode=2 fh=17
+getattr: inode=2
+getattr: inode=2
+read: inode=2 offset=0 size=23
+read: inode=2 offset=22 size=1
+release: inode=2 fh=17
+getattr: inode=1
+lookup: parent=1 name="notes.txt"
+getattr: inode=3
+open: inode=3 fh=18
+getattr: inode=3
+getattr: inode=3
+read: inode=3 offset=0 size=29
+read: inode=3 offset=28 size=1
+release: inode=3 fh=18
+getattr: inode=1
+getattr: inode=1
+lookup: parent=1 name="aaa.txt"
+create: parent=1 name="aaa.txt"
+open: inode=5 fh=19
+getattr: inode=5
+getattr: inode=5
+write: inode=5 offset=0 size=11
+release: inode=5 fh=19
+getattr: inode=1
+getattr: inode=1
+readdir: inode=1 offset=0
+readdir: inode=1 offset=6
+getattr: inode=1
+getattr: inode=1
+lookup: parent=1 name="lifecycle.txt"
+create: parent=1 name="lifecycle.txt"
+open: inode=6 fh=20
+getattr: inode=6
+getattr: inode=6
+write: inode=6 offset=0 size=11
+release: inode=6 fh=20
+getattr: inode=1
+lookup: parent=1 name="lifecycle.txt"
+getattr: inode=6
+open: inode=6 fh=21
+getattr: inode=1
+lookup: parent=1 name="lifecycle.txt"
+getattr: inode=6
+open: inode=6 fh=22
+getattr: inode=6
+getattr: inode=1
+lookup: parent=1 name="lifecycle.txt"
+getattr: inode=1
+unlink: parent=1 name="lifecycle.txt"
+getattr: inode=1
+lookup: parent=1 name="lifecycle.txt"
+getattr: inode=1
+getattr: inode=1
+readdir: inode=1 offset=0
+readdir: inode=1 offset=6
+getattr: inode=6
+getattr: inode=1
+lookup: parent=1 name="lifecycle.txt"
+getattr: inode=1
+getattr: inode=1
+lookup: parent=1 name="lifecycle.txt"
+create: parent=1 name="lifecycle.txt"
+open: inode=7 fh=23
+getattr: inode=7
+getattr: inode=7
+write: inode=7 offset=0 size=8
+release: inode=7 fh=23
+getattr: inode=1
+lookup: parent=1 name="lifecycle.txt"
+getattr: inode=7
+read: inode=6 offset=0 size=100
+write: inode=6 offset=0 size=3
+read: inode=6 offset=0 size=100
+setattr: inode=6 size=Some(3)
+read: inode=6 offset=0 size=100
+getattr: inode=1
+lookup: parent=1 name="lifecycle.txt"
+getattr: inode=7
+open: inode=7 fh=24
+getattr: inode=7
+getattr: inode=7
+read: inode=7 offset=0 size=9
+read: inode=7 offset=8 size=1
+release: inode=7 fh=24
+read: inode=6 offset=0 size=100
+release: inode=6 fh=22
+read: inode=6 offset=0 size=100
+release: inode=6 fh=21
+forget: inode=6 remaining=0
+reclaim: inode=6
+getattr: inode=1
+lookup: parent=1 name="lifecycle.txt"
+getattr: inode=7
+open: inode=7 fh=25
+getattr: inode=7
+getattr: inode=7
+read: inode=7 offset=0 size=9
+read: inode=7 offset=8 size=1
+release: inode=7 fh=25
+getattr: inode=1
+lookup: parent=1 name="lifecycle.txt"
+getattr: inode=1
+unlink: parent=1 name="lifecycle.txt"
+forget: inode=7 remaining=0
+reclaim: inode=7
+getattr: inode=1
+lookup: parent=1 name="lifecycle.txt"
+getattr: inode=1
+getattr: inode=1
+readdir: inode=1 offset=0
+getattr: inode=1
+lookup: parent=1 name="hello.txt"
+getattr: inode=1
+unlink: parent=1 name="hello.txt"
+forget: inode=2 remaining=0
+reclaim: inode=2
+getattr: inode=1
+getattr: inode=1
+lookup: parent=1 name="after-delete.txt"
+create: parent=1 name="after-delete.txt"
+open: inode=8 fh=26
+getattr: inode=8
+getattr: inode=8
+write: inode=8 offset=0 size=21
+release: inode=8 fh=26
+getattr: inode=1
+getattr: inode=1
+readdir: inode=1 offset=0
+readdir: inode=1 offset=9
+readdir: inode=1 offset=3
+readdir: inode=1 offset=9
+MemFs unmounted.
